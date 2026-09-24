@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCTLDM8VEG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QCTLDM8VEG');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#E11D2A" />
+    <title>King Fast Food Sarandë | Fast Food &amp; Delivery</title>
+    <meta name="description" content="King Fast Food in Sarandë offers tasty fast food, big portions, quick service, and delivery every day from 10 AM to 5 AM (next day). Find us on Rruga Ismail Qemali or call +355 697 480 902." />
+    <meta property="og:title" content="King Fast Food Sarandë | Fast Food &amp; Delivery" />
+    <meta property="og:description" content="Fast, fresh, tasty. Big portions and great prices. Delivery every day 10 AM – 5 AM (next day)." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fast-food-geri.al/" />
+    <meta property="og:image" content="https://fast-food-geri.al/king-hero.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://fast-food-geri.al/king-hero.webp" />
+
+    <link rel="icon" href="/king-logo.webp" />
+    <link rel="canonical" href="https://fast-food-geri.al/" />
+    <link rel="preload" href="/king-hero.webp" as="image" type="image/webp" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700;800&display=swap"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FastFoodRestaurant",
+        "name": "King Fast Food",
+        "image": "https://fast-food-geri.al/king-logo.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rruga Ismail Qemali",
+          "addressLocality": "Sarandë",
+          "postalCode": "9701",
+          "addressCountry": "AL"
+        },
+        "telephone": "+355697480902",
+        "servesCuisine": ["Fast Food", "Gyros", "Pita", "Grilled"],
+        "priceRange": "$",
+        "openingHours": "Mo-Su 10:00-05:00",
+        "url": "https://fast-food-geri.al/",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "88"
+        }
+      }
+    </script>
+    <script>
+      // Recover from stale lazy-loaded chunks after an atomic deployment.
+      // Vite emits this event before throwing a preload error. A single hard
+      // reload fetches the current HTML/chunk map; repeated failures still
+      // fall through to the app's real error boundary.
+      window.addEventListener('vite:preloadError', function (event) {
+        var key = 'king-vite-preload-reload';
+        var now = Date.now();
+        var current = window.location.pathname + window.location.search;
+        var previous = null;
+
+        try {
+          previous = JSON.parse(sessionStorage.getItem(key) || 'null');
+        } catch (_) {}
+
+        if (!previous || previous.url !== current || now - previous.at > 30000) {
+          event.preventDefault();
+          try {
+            sessionStorage.setItem(key, JSON.stringify({ url: current, at: now }));
+          } catch (_) {}
+          window.location.reload();
+        }
+      });
+    </script>
+    <script type="module" crossorigin src="/assets/index-DfI6WsXn.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DTXT-vfX.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
